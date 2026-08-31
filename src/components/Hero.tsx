@@ -108,7 +108,7 @@ export const Hero = () => {
                 initial={{ opacity: 0, y: 0 }}
                 animate={{ opacity: 1, y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, delay: i * 0.5 }}
-                className="absolute px-5 py-2.5 rounded-full text-xs md:text-sm font-bold border border-border shadow-2xl whitespace-nowrap hidden sm:flex items-center justify-center z-50 w-fit backdrop-blur-md bg-card-bg/80"
+                className="absolute flex w-[92px] items-center justify-center rounded-full border border-border bg-card-bg/80 px-2 py-2 text-center text-[11px] font-bold leading-tight shadow-2xl backdrop-blur-md z-50 sm:w-fit sm:whitespace-nowrap sm:px-5 sm:py-2.5 sm:text-xs md:text-sm"
                 style={{ 
                   ...badge,
                   left: badge.left === "0%" ? "-15%" : (badge.left === "5%" ? "-10%" : (badge.left === "15%" ? "5%" : badge.left)),
